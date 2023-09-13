@@ -1,0 +1,62 @@
+.PostCard {
+  display: flex;
+  width: 472px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  background: var(--ext---WHITE-SMOKE-LIGHT, #f9f9f9);
+  margin-top: 33px;
+
+  /* soft */
+  box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.09);
+}
+.Head {
+  display: flex;
+  padding: 3px 2px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  height: 20px auto;
+}
+.Head p {
+  color: var(--DARK-GRAY, #b0b0b0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.342px;
+}
+.Head img {
+  width: 20px;
+  height: 18.35px;
+  fill: var(--DARK-GRAY, #b0b0b0);
+}
+
+.Details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.ProfileDetails {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.Description {
+  align-self: stretch;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.304px;
+  
+  text-align-last: left;
+
+}

@@ -1,0 +1,26 @@
+.HeadLine {
+
+  margin-top: 110px;
+}
+.FirstPart {
+  color: var(--ext---VALHALLA, #292c43);
+  font-family: Space Grotesk;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%; /* 91.63px */
+  letter-spacing: -1.694px;
+}
+
+.HighLight {
+  background: linear-gradient(90deg, #292c43 41.73%, #8692df 95.91%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Space Grotesk;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119%;
+  letter-spacing: -1.694px;
+}

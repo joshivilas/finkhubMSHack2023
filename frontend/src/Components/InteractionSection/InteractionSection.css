@@ -1,0 +1,6 @@
+.InteractionSection{
+    /* background-color: red; */
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,61 @@
+.Menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SelectMenu {
+  width: 122px;
+  height: 36px;
+  margin-right: 10px;
+}
+.Categories,
+.SortBy {
+  padding: 3px 11px;
+  align-items: center;
+  gap: 13px;
+  border-radius: 7px;
+  border: 1px solid #e8e8e8;
+  /* background: "#f3f3f3"; */
+  cursor: pointer;
+
+  color: #ababab;
+  font-family: Lexend;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.1px; /* 242.5% */
+
+  background: url("data:image/svg+xml,<svg height='23px' width='24px' viewBox='0 0 23 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M7.10125 8.72253L11.5 13.1213L15.8988 8.72253L17.25 10.0834L11.5 15.8334L5.75 10.0834L7.10125 8.72253Z' fill='#CACACA'/> </svg>") no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  appearance: none !important;
+  -moz-appearance:none !important;
+  -webkit-appearance: none !important; 
+  padding-right: 2rem !important;
+  
+  /* background: url("data:image/svg+xml;utf8, 
+  <svg width='23' height='24' viewBox='0 0 23 24' fill='red'><path d='M7.10125 8.72253L11.5 13.1213L15.8988 8.72253L17.25 10.0834L11.5 15.8334L5.75 10.0834L7.10125 8.72253Z' fill='#CACACA'/></svg>"); */
+}
+
+.WritePost {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 73px;
+  border: 1px solid var(--ext---VICTORIA, #525886);
+  cursor: pointer ;
+}
+.WritePost .Icon {
+  width: 24px;
+  height: 24px;
+}
+
+.WritePost .Text {
+  color: var(--ext---VICTORIA, #525886);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.304px;
+}

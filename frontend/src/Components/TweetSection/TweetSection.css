@@ -1,0 +1,29 @@
+.Heading {
+  display: flex;
+  width: 492px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.Title {
+  color: var(--PORTAGE, #8893df);
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Description {
+  width: 492px;
+  color: var(--ext---DIM-GRAY, #626262);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+  text-align-last: left;
+
+  
+}

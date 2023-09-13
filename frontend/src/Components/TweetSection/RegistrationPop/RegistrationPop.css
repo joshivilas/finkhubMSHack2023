@@ -1,0 +1,60 @@
+.RegistrationPop {
+  width: 490px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 18px;
+  border: 3px solid var(--ext---LAVENDER, #e7e9f9);
+  background: rgba(249, 249, 249, 0.3);
+  backdrop-filter: blur(24.5px);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Box {
+  /* display: flex;
+  width: 456px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px; */
+}
+.Registration-Heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Controls .Registration {
+  display: flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 73px;
+  background: #525886;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.304px;
+}
+.Controls .Login {
+    background: #c9cbd6;
+    border-radius: 73px;
+
+    padding: 10px 24px;
+    color: #525886;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.304px;
+    cursor: pointer;
+ 
+}
